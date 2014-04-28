@@ -1,75 +1,64 @@
 body {
-    background-color: azure;
-    clear: both;
-    margin : 0px;
-    font-size: 16px;
-    width : 70%;
-    height: auto;
-    margin : 0% 15%;
-    display: -webkit-box;
-    -webkit-box-pack: center;
-    text-align: left;
-}
-.home_page{
+  background-color: #fff;
+  font-size: 16px;
+  width: 70%;
+  margin: 0% 15%;
+  display: -webkit-box;
+  -webkit-box-pack: center;
+  text-align: left; }
 
-    margin :1em auto;
-    background-color: aquamarine;
-    max-width : 100%;
-  display : -webkit-box;
-    -webkit-box-orient : vertical;
-    -webkit-box-flex: 1;
-}
-.main_header{
-    text-align: center;
-    margin : .2em ;
-    border : solid .15em #002a80;
-}
-.main_menu{
-    text-decoration:none ;
-    width : 99%;
-    display : inline-block;
-    border : solid .15em #002a80;
-}
-ul li{
-    float :left;
-    margin : .2em 1em;
-    color : #005580;
-}
-.main_content{
-    display: block;
-    width : 70%;
+.home_page {
+  margin: 1em auto;
+  background-color: aquamarine;
+  max-width: 100%;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-flex: 1; }
 
-    float : left;
-}
+.main_header {
+  text-align: center;
+  margin: 0.2em;
+  border: solid .15em #002a80; }
+
+.main_menu {
+  text-decoration: none;
+  width: 99%;
+  display: inline-block;
+  border: solid .15em #002a80; }
+
+ul li {
+  float: left;
+  margin: .2em 1em;
+  color: #005580; }
+
+.main_content {
+  display: block;
+  width: 70%;
+  float: left; }
+
 .main_sidebar {
-    float : left;
-    border : solid .15em #002a80;
-    display : block;
-    margin : 1em .5em;
-    width : 27%;
-}
+  float: left;
+  border: solid .15em #002a80;
+  display: block;
+  margin: 1em .5em;
+  width: 27%; }
 
-.main_footer{
-    clear: both;
-    text-align: center;
-    margin : 2em auto ;
-    border : solid .15em #002a80;
-}
+.main_footer {
+  clear: both;
+  text-align: center;
+  margin: 2em auto;
+  border: solid .15em #002a80; }
 
-article header{
-    text-align : center;
-}
+article {
+  display: block;
+  border: solid .1em #2f96b4;
+  margin-bottom: 1em; }
+  article header {
+    text-align: center; }
 
-article{
-    display : block;
-    border : solid .1em #2f96b4;
-    margin-bottom : 1em;
-}
 hgroup h1 {
-    text-align : left;
-    margin : 0em 2em;
-}
-article footer
-{
-    text-align : right;
-}
+  text-align: left;
+  margin: 0em 2em; }
+
+article footer {
+  text-align: right; }
